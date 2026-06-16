@@ -1,9 +1,1 @@
-<iframe
-    src="https://www.astroawani.com/" 
-    title="Astro Awani News" 
-    width="100%" 
-    height="800" 
-    style="border:none;" 
-    loading="lazy">
-</iframe>
-``
+=DATEDIF([Joined Date],TODAY(),"Y")&" years "&DATEDIF([Joined Date],TODAY(),"YM")&" month "&DATEDIF([Joined Date],TODAY(),"MD")&" day"
